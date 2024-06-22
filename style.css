@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-flow: column;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  margin: 50px;
+}
+
+/* •••••••••••••••• NAV-VAR •••••••••••••••• */
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* •••••••••••••••• HERO-SECTION •••••••••••••••• */
+.hero {
+  width: 100%;
+}
+
+#img-hero {
+  justify-content: center;
+  width: 700px;
+  height: auto;
+}
+
+.button-all {
+  display: inline-block; /* Inline block element */
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 40px;
+  background-color: white;
+  border: 4px solid black;
+  margin: 20px;
+  height: 300px;
+  width: 500px;
+  cursor: pointer; /* Pointer/hand icon */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.more {
+  display: inline-block; /* Inline block element */
+  padding: 8px 10px;
+  /* text-align: center; */
+  font-size: 30px;
+  background-color: white;
+  border: 4px solid black;
+  margin: 20px;
+  cursor: pointer; /* Pointer/hand icon */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+button:hover {
+  background-color: gray;
+  color: white;
+}
+
+#album-section {
+  display: flex;
+  margin: 40px;
+  width: 100%;
+  height: 800px;
+}
+
+#album-pic {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  justify-content: center;
+}
+
+#album-img {
+  width: 50%;
+  height: auto;
+}
+
+#album-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+}
+
+#products {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 800px;
+}
+
+p {
+  font-size: 50px;
+}
+
+.merch-imgs {
+  width: 100%;
+  height: auto;
+}
+/* 
+.merch-imgs img{
+    width: 27%;
+    height: 400px;
+} */
+
+/* •••••••••••••••• HERO-SECTION •••••••••••••••• */
+footer {
+  background-color: black;
+  width: 100vw;
+  height: 300px;
+  margin-top: 70px;
+}
